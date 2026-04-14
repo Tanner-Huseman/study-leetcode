@@ -16,5 +16,6 @@ One line per session: `[DATE] — [Pattern]: [Problem Title] (#N) — [one-sente
 ## Sessions
 
 <!-- New entries go here, most recent first -->
+- 2026-04-13 — Two Pointers: Container With Most Water (#11) — always move the shorter wall; moving the taller one can only make things worse.
 - 2026-04-13 — Sliding Window: Longest Repeating Character Replacement (#424) — window is invalid when `size - max_frequency > k`; the key is recognizing that replacements needed equals non-dominant characters in the window.
 - 2026-04-13 — Two Pointers: 3Sum (#15) — fix one element in the outer loop, reduce to a two-pointer two-sum on the sorted remainder; skip duplicates at both the outer and inner levels.

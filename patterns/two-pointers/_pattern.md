@@ -44,6 +44,7 @@ def two_pointers(arr):
 | # | Title | Difficulty | Key Insight |
 |---|-------|------------|-------------|
 | 15 | 3Sum | Medium | Fix `nums[i]` in outer loop, two-pointer on remaining subarray for `-nums[i]`; skip duplicates at both levels |
+| 11 | Container With Most Water | Medium | No sorting or dict needed — just record area, then always move the shorter wall inward |
 
 ## Gotchas / Failure Modes
 - **Forgot to sort**: two pointers are meaningless on unsorted input — always sort first unless the problem guarantees sorted order.
