@@ -20,8 +20,8 @@ Ordered by interview frequency for target roles (data-focused, not pure SWE):
 
 | Priority | Pattern | Status |
 |----------|---------|--------|
-| 1 | Sliding Window | In progress (2 problems) |
-| 2 | Two Pointers | Not started |
+| 1 | Sliding Window | Complete (3 problems) |
+| 2 | Two Pointers | In progress (1 problem) |
 | 3 | BFS (Graph traversal) | Not started |
 | 4 | DFS / Backtracking | Not started |
 | 5 | Binary Search (on answer) | Not started |
