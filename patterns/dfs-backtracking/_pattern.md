@@ -1,4 +1,4 @@
-<!-- STATUS: in progress -->
+<!-- STATUS: complete -->
 # DFS / Backtracking
 
 ## The Concept
@@ -41,6 +41,7 @@ def backtrack(start, path, result):
 | # | Title | Difficulty | Key Insight |
 |---|-------|------------|-------------|
 | 39 | Combination Sum | Medium | Pass `i` (not `i+1`) to allow reuse; `remaining < 0` prunes over-target branches; `path[:]` copies on record |
+| 78 | Subsets | Medium | Record at every call (not just leaves); pass `i+1` for no-reuse; no pruning needed since every path is valid |
 
 ## Gotchas / Failure Modes
 - **Forgot `path[:]` on append** — storing a bare reference means every recorded result points to the same list, which will be empty when the recursion fully unwinds.
