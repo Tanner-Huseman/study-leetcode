@@ -16,6 +16,7 @@ One line per session: `[DATE] — [Pattern]: [Problem Title] (#N) — [one-sente
 ## Sessions
 
 <!-- New entries go here, most recent first -->
+- 2026-04-16 — BFS: Number of Islands (#200) — outer loop counts components, BFS flood-fills each island in-place; marking '0' on enqueue (not dequeue) is the key discipline.
 - 2026-04-16 — BFS: Rotting Oranges (#994) — multi-source BFS seeds all rotten oranges at level 0; only increment minutes when a level actually converts new oranges to avoid off-by-one.
 - 2026-04-13 — Two Pointers: Container With Most Water (#11) — always move the shorter wall; moving the taller one can only make things worse.
 - 2026-04-13 — Sliding Window: Longest Repeating Character Replacement (#424) — window is invalid when `size - max_frequency > k`; the key is recognizing that replacements needed equals non-dominant characters in the window.

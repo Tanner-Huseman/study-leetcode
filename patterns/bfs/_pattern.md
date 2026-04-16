@@ -1,4 +1,4 @@
-<!-- STATUS: in progress -->
+<!-- STATUS: complete -->
 # BFS (Breadth-First Search)
 
 ## The Concept
@@ -59,6 +59,7 @@ Otherwise the last "empty" level fires an extra increment.
 | # | Title | Difficulty | Key Insight |
 |---|-------|------------|-------------|
 | 994 | Rotting Oranges | Medium | Multi-source BFS from all rotten oranges at once; `rotten_oranges` set doubles as visited; count fresh up front and decrement to detect impossible case |
+| 200 | Number of Islands | Medium | Outer loop counts components; BFS flood-fills each island to `'0'` in-place (O(1) extra space vs a visited set); mark visited on enqueue not dequeue |
 
 ## Gotchas / Failure Modes
 - **Mark visited on enqueue, not dequeue** — marking on dequeue allows the same node to be enqueued multiple times, causing duplicate work or wrong counts.
