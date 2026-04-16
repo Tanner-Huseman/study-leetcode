@@ -23,7 +23,7 @@ Ordered by interview frequency for target roles (data-focused, not pure SWE):
 | 1 | Sliding Window | Complete (3 problems) |
 | 2 | Two Pointers | Complete (2 problems) |
 | 3 | BFS (Graph traversal) | Complete (2 problems) |
-| 4 | DFS / Backtracking | Not started |
+| 4 | DFS / Backtracking | Complete (2 problems) |
 | 5 | Binary Search (on answer) | Not started |
 | 6 | Dynamic Programming (1D) | In progress (1 problem) |
 | 7 | Heap / Priority Queue | Not started |

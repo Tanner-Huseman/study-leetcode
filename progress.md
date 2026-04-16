@@ -16,6 +16,8 @@ One line per session: `[DATE] — [Pattern]: [Problem Title] (#N) — [one-sente
 ## Sessions
 
 <!-- New entries go here, most recent first -->
+- 2026-04-16 — DFS/Backtracking: Subsets (#78) — record at every call (not just leaves); `i+1` for no-reuse; same three-line loop body as Combination Sum.
+- 2026-04-16 — DFS/Backtracking: Combination Sum (#39) — choose/explore/unchoose: pass `i` to allow reuse, `path[:]` to snapshot, `pop()` to undo; the invariant is that `path` is always clean when entering a new branch.
 - 2026-04-16 — BFS: Number of Islands (#200) — outer loop counts components, BFS flood-fills each island in-place; marking '0' on enqueue (not dequeue) is the key discipline.
 - 2026-04-16 — BFS: Rotting Oranges (#994) — multi-source BFS seeds all rotten oranges at level 0; only increment minutes when a level actually converts new oranges to avoid off-by-one.
 - 2026-04-13 — Two Pointers: Container With Most Water (#11) — always move the shorter wall; moving the taller one can only make things worse.
