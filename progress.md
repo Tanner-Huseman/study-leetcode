@@ -16,6 +16,7 @@ One line per session: `[DATE] — [Pattern]: [Problem Title] (#N) — [one-sente
 ## Sessions
 
 <!-- New entries go here, most recent first -->
+- 2026-04-17 — Heap / Priority Queue: Kth Largest Element in an Array (#215) — min-heap of size k; heap[0] is the kth largest because it's the minimum of the top-k elements.
 - 2026-04-17 — Dynamic Programming (1D): Coin Change (#322) — dp[i] = min(dp[i], dp[i-c]+1) for each coin; float('inf') initializes unreachable states, dp[0]=0 is the base case.
 - 2026-04-17 — Dynamic Programming (1D): House Robber (#198) — dp[i] = max(nums[i] + dp[i-2], dp[i-1]); dp[i-1] carries full optimal history so you never need to track which houses were robbed.
 - 2026-04-17 — Binary Search: Capacity To Ship Packages (#1011) — lo=max(weights) not 1; feasible greedily tracks remaining daily capacity and increments day count on overflow.

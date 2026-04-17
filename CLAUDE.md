@@ -26,7 +26,7 @@ Ordered by interview frequency for target roles (data-focused, not pure SWE):
 | 4 | DFS / Backtracking | Complete (2 problems) |
 | 5 | Binary Search (on answer) | Complete (2 problems) |
 | 6 | Dynamic Programming (1D) | Complete (2 problems) |
-| 7 | Heap / Priority Queue | Not started |
+| 7 | Heap / Priority Queue | Complete (1 problem) |
 | 8 | Monotonic Stack | Not started |
 | 9 | Union Find | Not started |
 | 10 | Trie | Not started |
