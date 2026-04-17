@@ -16,6 +16,7 @@ One line per session: `[DATE] — [Pattern]: [Problem Title] (#N) — [one-sente
 ## Sessions
 
 <!-- New entries go here, most recent first -->
+- 2026-04-17 — Binary Search: Koko Eating Bananas (#875) — search the answer space [1, max(piles)]; feasibility is just sum(ceil(p/k)) <= h; lo=1 not 0 since k is a divisor.
 - 2026-04-16 — DFS/Backtracking: Subsets (#78) — record at every call (not just leaves); `i+1` for no-reuse; same three-line loop body as Combination Sum.
 - 2026-04-16 — DFS/Backtracking: Combination Sum (#39) — choose/explore/unchoose: pass `i` to allow reuse, `path[:]` to snapshot, `pop()` to undo; the invariant is that `path` is always clean when entering a new branch.
 - 2026-04-16 — BFS: Number of Islands (#200) — outer loop counts components, BFS flood-fills each island in-place; marking '0' on enqueue (not dequeue) is the key discipline.
