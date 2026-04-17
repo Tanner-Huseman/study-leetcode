@@ -24,8 +24,8 @@ Ordered by interview frequency for target roles (data-focused, not pure SWE):
 | 2 | Two Pointers | Complete (2 problems) |
 | 3 | BFS (Graph traversal) | Complete (2 problems) |
 | 4 | DFS / Backtracking | Complete (2 problems) |
-| 5 | Binary Search (on answer) | In progress (1 problem) |
-| 6 | Dynamic Programming (1D) | In progress (1 problem) |
+| 5 | Binary Search (on answer) | Complete (2 problems) |
+| 6 | Dynamic Programming (1D) | Complete (2 problems) |
 | 7 | Heap / Priority Queue | Not started |
 | 8 | Monotonic Stack | Not started |
 | 9 | Union Find | Not started |

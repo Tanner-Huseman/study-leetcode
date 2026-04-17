@@ -59,6 +59,7 @@ ceil(6 / 3)      # → 2  (exact division, no rounding)
 | # | Title | Difficulty | Key Insight |
 |---|-------|------------|-------------|
 | 875 | Koko Eating Bananas | Medium | Search `[1, max(piles)]`; feasible = `sum(ceil(p/k)) <= h` |
+| 1011 | Capacity To Ship Packages Within D Days | Medium | `lo=max(weights)` (must fit heaviest); feasible greedily fills days, increments day count when capacity exceeded |
 
 ## Gotchas / Failure Modes
 - **lo = 0 instead of 1**: if the candidate is used as a divisor (like eating speed), 0 causes a ZeroDivisionError — always set lo to the true minimum meaningful value.
